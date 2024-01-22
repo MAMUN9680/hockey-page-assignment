@@ -22,7 +22,7 @@
 
 <body>
     <header>
-        <div class="container mx-auto lg:px-24 my-8 bg-white">
+        <div class="container mx-auto lg:px-20">
             <div class="navbar my-10  rounded-full px-10">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -63,13 +63,45 @@
                 </div>
             </div>
         </div>
-
-
-
-
     </header>
     <main>
-        
+        <!-- Banner Container Section -->
+        <section class="container mx-auto lg:px-28 px-8">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full flex items-center justify-center">
+                    <img src="./Images/1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="./Images/12.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="./Images/13.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="./Images/1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+                    <div class=" lg:w-2/5 lg:relative bg-black shadow-lg rounded-lg  lg:translate-x-72 lg:left-96 -top-56 text-center p-8">
+                        <h6 class="text-2xl font-bold text-white scroll-pt-36 ">Meet all the heroes from the field</h6>
+                        <p class="text-white mt-4">Hockey is a field game played between two teams consisting of eleven players each. The game is played with sticks and a ball.</p>
+                    </div>
+        </section>
     </main>
     <footer>
 
